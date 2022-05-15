@@ -1,0 +1,70 @@
+
+/* Html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar Contact */
+
+#navbar .main-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+
+#navbar .main-contact .main-logo {
+    text-align: center;
+    
+}
+
+#navbar .main-contact .main-logo p{
+    margin-right: 1.4rem;
+}
+
+#navbar .main-contact .main-logo h1{
+    color: rgba(18, 81, 163, 0.829);
+}
+
+/* Navbar Contact  */
+#navbar .main-contact .contact {
+    text-align: center;
+    
+    align-self: flex-end;
+}
+
+#navbar .main-contact .contact h4{
+    margin-bottom: 0.4rem;
+}
+
+
+
+/* Navbar Mail */
+
+#navbar .main-contact .mail {
+    text-align: center;
+    
+    align-self: flex-end;
+}
+
+#navbar .main-contact .mail h4{
+    margin-bottom: 0.4rem;
+}
+
+
+
+/* Navbar Shift */
+
+#navbar .main-contact .shift {
+    text-align: center;
+    align-self: flex-end;
+}
+
+#navbar .main-contact .shift h4{
+    margin-bottom: 0.4rem;
+}

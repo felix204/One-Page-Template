@@ -1,0 +1,49 @@
+
+/* Navbar Main Contact */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar .main-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar .main-contact .main-logo {
+    margin-bottom: 3rem;
+}
+
+
+
+/* Navbar Contact  */
+
+#navbar .main-contact .contact {
+    margin-bottom: 3rem;
+}
+
+
+/* Navbar Mail */
+
+
+#navbar .main-contact .mail {
+    margin-bottom: 3rem;
+}
+
+#navbar .main-contact .mail h4{
+    text-align: start;
+}
+
+
+
+/* Navbar Shift */
+
+#navbar .main-contact .shift {
+    margin-bottom: 2rem;
+}
+
+#navbar .main-contact .shift h4{
+    text-align: start;
+}
+
