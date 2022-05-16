@@ -1,0 +1,17 @@
+
+/* Main Navbar */
+
+#navbar .main-navbar ul {
+    justify-content:center;
+}
+
+#navbar .main-navbar ul li{
+    margin-left: 4rem;
+}
+
+/* Main Navbar HOVER */
+
+#navbar .main-navbar ul li a:hover{
+    text-decoration: none;
+    color: rgba(18, 81, 163, 0.829);
+}
