@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.84rem;
     
 }
 
@@ -35,7 +35,6 @@
 /* Navbar Contact  */
 #navbar .main-contact .contact {
     text-align: center;
-    
     align-self: flex-end;
 }
 
@@ -49,7 +48,6 @@
 
 #navbar .main-contact .mail {
     text-align: center;
-    
     align-self: flex-end;
 }
 
@@ -74,9 +72,6 @@
 
 /* Main Navbar */
 
-#navbar .main-navbar {
-    margin-top: 5rem; 
-}
 
 #navbar .main-navbar ul {
     display: flex;
@@ -107,4 +102,69 @@
 #navbar .main-navbar ul li a:hover{
     text-decoration: overline;
     color: rgba(18, 81, 163, 0.829);
+}
+
+/* Intro Image */
+
+#intro .intro-image{
+    position: relative;
+}
+
+#intro .intro-image img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+
+
+/* Intro Header */
+
+#intro .image-description h1{
+    top: 100px;
+    color: black;
+}
+
+#intro .intro-image h1{
+    position: absolute;
+    top: 170px;
+    left: 200px;
+}
+
+#intro .intro-image h4{
+    position: absolute;
+    top: 320px;
+    left: 205px;
+}
+
+
+
+/* Intro Button */
+
+#intro .intro-image .btn-intro:hover {
+    background: #fff;
+    color: rgba(15, 69, 139, 0.829);
+    border: rgba(18, 81, 163, 0.829);
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+#intro .intro-image .btn-intro{
+    position: absolute;
+    top: 400px;
+    left: 205px;
+}
+
+#intro .intro-image .btn-intro-second:hover{
+    background: rgb(38, 105, 194);
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+#intro .intro-image .btn-intro-second {
+    position: absolute;
+    top: 400px;
+    left: 370px;
 }

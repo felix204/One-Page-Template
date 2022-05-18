@@ -22,3 +22,27 @@
 .opacity-fade {
     opacity: 1.2rem;
 }
+
+.header-intro {
+    font-size: 7rem;
+}
+
+.btn-intro {
+    background: rgb(38, 105, 194);
+    color: white;
+    padding: 1.2rem;
+    border: 0px solid rgb(20, 75, 148);
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.btn-intro-second {
+    background: #fff;
+    color: rgb(38, 105, 194);
+    padding: 1.2rem;
+    border: 0px solid rgb(20, 75, 148);
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
