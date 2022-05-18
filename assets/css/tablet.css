@@ -15,3 +15,27 @@
     text-decoration: none;
     color: rgba(18, 81, 163, 0.829);
 }
+
+/* Intro  */
+
+#intro .intro-image h1{
+    font-size: 5rem;
+    top: 60px;
+    left: 90px;
+}
+
+#intro .intro-image h4{
+    font-size: 2rem;
+    top: 160px;
+    left: 100px;
+}
+
+#intro .intro-image .btn-intro {
+    top: 240px;
+    left: 110px;
+}
+
+#intro .intro-image .btn-intro-second {
+    top: 240px;
+    left: 270px;
+}
