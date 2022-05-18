@@ -60,9 +60,20 @@
 
 /* Main Navbar */
 
+#navbar .main-navbar {
+    display: felx;
+    flex-direction: row;
+}
+
 #navbar .main-navbar ul li{
-    justify-content: space-around;
-    padding-right: 3.8rem;
+    position: relative;
+}
+
+#navbar .main-navbar ul li a{
+    font-size: 15px;
+    position: absolute;
+    bottom: 3px;
+    right: 43px;
 }
 
 #navbar .main-navbar ul li a:hover{
@@ -73,4 +84,30 @@
     margin-top: -1rem;
 }
 
+
+
 /* Intro */
+
+#intro .intro-image img{
+    height: 455px;
+    object-fit: cover;
+}
+
+#intro .intro-image .header-intro{
+    font-size: 50px;
+    top: 150px;
+    left: 30px;
+}
+
+#intro .intro-image .header-large{
+    font-size: 25px;
+    top: 220px;
+    left: 35px;
+}
+
+#intro .intro-image .btn-intro {
+    display: none;
+}
+
+#intro .intro-image .btn-intro-second {
+    display: none;
