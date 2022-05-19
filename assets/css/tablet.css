@@ -1,4 +1,6 @@
 
+/* iPad Pro */
+
 /* Main Navbar */
 
 #navbar .main-navbar ul {
@@ -39,3 +41,22 @@
     top: 240px;
     left: 270px;
 }
+
+/* About Area */
+
+#about .description {
+    position: relative;
+}
+
+.description .btn-intro {
+    position: absolute;
+    right: 400px;
+    top: 200px;
+}
+
+.description span{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+

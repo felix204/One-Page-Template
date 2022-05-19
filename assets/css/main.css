@@ -169,6 +169,8 @@
     left: 370px;
 }
 
+
+
 /* About Area */
 
 #about {
@@ -179,7 +181,7 @@
 }
 
 #about .about-image img{
-    width: 400px;
+    width: 300px;
     height: 300px;
     object-fit: cover;
     border: 1px solid #ddd;
