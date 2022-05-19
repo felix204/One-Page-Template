@@ -125,5 +125,29 @@
     flex-direction: column;
 }
 
-#
+#about .description {
+    position: relative;
+}
 
+#about .description h3{
+    position: absolute;
+    bottom: 1px;
+    font-size: 2rem;
+} 
+
+#about .description span{
+    position: absolute;
+    top: 1px;
+}
+
+#about .description .btn-intro {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+
+#about .about-image img{
+    position: absolute;
+    height: 150px;
+    top: 1180px;
+}
