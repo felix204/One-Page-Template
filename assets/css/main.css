@@ -168,3 +168,51 @@
     top: 400px;
     left: 370px;
 }
+
+/* About Area */
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+#about .about-image img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+#about .about-image img:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#about .description {
+    display: flex;
+    flex-direction: column;
+}
+
+#about .description h3{
+    font-size: 4rem;
+    margin-bottom: 1.8rem;
+}
+
+#about .description span{
+    font-weight: bold;
+    margin-bottom: 2.6rem;
+}
+
+#about .description .btn-intro {
+    width: 140px;
+}
+
+#about .description .btn-intro:hover {
+    background: rgb(207, 203, 203);
+    color: rgba(15, 69, 139, 0.829);
+}
