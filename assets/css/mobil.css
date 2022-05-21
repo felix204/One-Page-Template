@@ -151,3 +151,36 @@
     height: 150px;
     top: 1180px;
 }
+
+
+/* Description */
+
+
+#description .description-area {
+    position: relative;
+}
+
+#description .description-area img{
+    position: absolute;
+    top: 330px;
+}
+
+#description .description-area .description-header {
+    position: relative;
+}
+
+#description .description-area .description-header h4 {
+    position: absolute;
+    font-size: 1rem;
+    top: 200px;
+}
+
+#description .description-area .description-paragraph {
+    position: relative;
+}
+
+#description .description-area .description-paragraph span{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 250px;
+}
