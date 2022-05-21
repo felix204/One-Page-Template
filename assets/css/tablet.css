@@ -60,3 +60,22 @@
     left: 10px;
 }
 
+
+
+/* Description */
+
+#description .description-area {
+    position: relative;
+}
+
+#description .description-area .description-header h4{
+    position: absolute;
+    top: 45px;
+    left: 180px;
+}
+
+#description .description-area .description-paragraph span{
+    position: absolute;
+    top: 115px;
+    left: 70px;
+}

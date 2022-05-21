@@ -178,6 +178,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 4rem;
+    margin-bottom: 5rem;
 }
 
 #about .about-image img{
@@ -218,3 +219,36 @@
     background: rgb(207, 203, 203);
     color: rgba(15, 69, 139, 0.829);
 }
+
+
+
+/* Description */
+
+#description {
+    margin-bottom: 5rem;
+}
+
+#description .description-area {
+    position: relative;
+}
+
+#description .description-area .description-header h4{
+    position: absolute;
+    top: 60px;
+    left: 370px;
+    font-size: 3rem;
+}
+
+#description .description-area .description-paragraph span{
+    position: absolute;
+    font-size: 2rem;
+    top: 150px;
+    left: 270px;
+}
+
+#description .description-area img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
