@@ -252,3 +252,33 @@
     opacity: 0.7;
 }
 
+/* Footer */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(22, 22, 22);
+    color: #fff;
+    padding-top: 2rem;
+}
+
+#footer .about {
+    padding-right: 4rem;
+    padding-left:  4rem; 
+}
+
+#footer .contact {
+    padding-right:  4rem;
+    padding-left:  4rem;
+}
+
+#footer .link {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+#footer .link-about {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
